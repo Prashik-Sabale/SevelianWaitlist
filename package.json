@@ -1,0 +1,36 @@
+{
+  "name": "sevelian-pre-order",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "dev:api": "node --env-file-if-exists=.env --watch server/index.mjs",
+    "start": "node --env-file-if-exists=.env server/index.mjs",
+    "build": "vite build",
+    "images": "node scripts/optimize-images.mjs",
+    "lint": "eslint .",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@fontsource-variable/manrope": "^5.3.0",
+    "@fontsource/cormorant-garamond": "^5.3.0",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "@vitejs/plugin-react": "^6.1.2",
+    "eslint": "^10.14.0",
+    "eslint-plugin-react-hooks": "^7.1.1",
+    "eslint-plugin-react-refresh": "^0.5.7",
+    "globals": "^17.13.0",
+    "sharp": "^0.35.5",
+    "vite": "^8.3.6"
+  },
+  "engines": {
+    "node": ">=20.19"
+  }
+}

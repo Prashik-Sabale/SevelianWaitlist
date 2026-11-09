@@ -1,0 +1,184 @@
+{
+  "hero-wide": {
+    "widths": [
+      960,
+      1440,
+      1920,
+      2560
+    ],
+    "width": 2880,
+    "height": 1700
+  },
+  "hero-tall": {
+    "widths": [
+      480,
+      768,
+      1080
+    ],
+    "width": 1210,
+    "height": 1700
+  },
+  "statement-wide": {
+    "widths": [
+      960,
+      1440,
+      1920,
+      2560
+    ],
+    "width": 2880,
+    "height": 1700
+  },
+  "statement-tall": {
+    "widths": [
+      480,
+      768,
+      1037
+    ],
+    "width": 1037,
+    "height": 1700
+  },
+  "philosophy-detail": {
+    "widths": [
+      480,
+      619
+    ],
+    "width": 619,
+    "height": 850
+  },
+  "material-comfort": {
+    "widths": [
+      480,
+      736
+    ],
+    "width": 736,
+    "height": 684
+  },
+  "material-design": {
+    "widths": [
+      400,
+      406
+    ],
+    "width": 406,
+    "height": 487
+  },
+  "material-details": {
+    "widths": [
+      400,
+      490
+    ],
+    "width": 490,
+    "height": 544
+  },
+  "col-linen": {
+    "widths": [
+      480,
+      634
+    ],
+    "width": 634,
+    "height": 811
+  },
+  "col-linen-alt": {
+    "widths": [
+      480,
+      634
+    ],
+    "width": 634,
+    "height": 811
+  },
+  "col-essentials": {
+    "widths": [
+      480,
+      634
+    ],
+    "width": 634,
+    "height": 811
+  },
+  "col-essentials-alt": {
+    "widths": [
+      480,
+      634
+    ],
+    "width": 634,
+    "height": 811
+  },
+  "col-classics": {
+    "widths": [
+      480,
+      634
+    ],
+    "width": 634,
+    "height": 811
+  },
+  "col-classics-alt": {
+    "widths": [
+      480,
+      634
+    ],
+    "width": 634,
+    "height": 811
+  },
+  "col-everyday": {
+    "widths": [
+      480,
+      634
+    ],
+    "width": 634,
+    "height": 811
+  },
+  "col-everyday-alt": {
+    "widths": [
+      480,
+      634
+    ],
+    "width": 634,
+    "height": 811
+  },
+  "social-1": {
+    "widths": [
+      400,
+      640
+    ],
+    "width": 736,
+    "height": 736
+  },
+  "social-2": {
+    "widths": [
+      400,
+      507
+    ],
+    "width": 507,
+    "height": 507
+  },
+  "social-3": {
+    "widths": [
+      400,
+      640
+    ],
+    "width": 1037,
+    "height": 1037
+  },
+  "social-4": {
+    "widths": [
+      400,
+      507
+    ],
+    "width": 507,
+    "height": 507
+  },
+  "social-5": {
+    "widths": [
+      400,
+      640
+    ],
+    "width": 979,
+    "height": 986
+  },
+  "social-6": {
+    "widths": [
+      400,
+      507
+    ],
+    "width": 507,
+    "height": 507
+  }
+}

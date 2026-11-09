@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <title>SEVELIAN — The Art of Effortless Elegance | Early Access</title>
+    <meta
+      name="description"
+      content="A new expression of timeless elegance. Register for exclusive early access to SEVELIAN's upcoming collection of premium linen and cotton essentials."
+    />
+    <meta name="theme-color" content="#F2EBDD" />
+    <link rel="canonical" href="__SITE_URL__" />
+
+    <link rel="icon" type="image/png" sizes="32x32" href="%BASE_URL%favicon-32.png" />
+    <link rel="apple-touch-icon" href="%BASE_URL%apple-touch-icon.png" />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="SEVELIAN" />
+    <meta property="og:title" content="SEVELIAN — The Wait Is Almost Over" />
+    <meta
+      property="og:description"
+      content="Beyond trends. Beyond seasons. Timeless by design. Join the early access list for SEVELIAN's first edition."
+    />
+    <meta property="og:url" content="__SITE_URL__" />
+    <meta property="og:image" content="__SITE_URL__og-image.jpg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="SEVELIAN wordmark over a man walking through sunlit grassland" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="SEVELIAN — The Wait Is Almost Over" />
+    <meta name="twitter:description" content="Join the early access list for SEVELIAN's first edition." />
+    <meta name="twitter:image" content="__SITE_URL__og-image.jpg" />
+
+    <!-- Hero art direction preload (matches <picture> in HeroSection) -->
+    <link rel="preload" as="image" type="image/avif" fetchpriority="high"
+      media="(min-width: 761px), (orientation: landscape)"
+      imagesrcset="%BASE_URL%images/hero-wide-960.avif 960w, %BASE_URL%images/hero-wide-1440.avif 1440w, %BASE_URL%images/hero-wide-1920.avif 1920w, %BASE_URL%images/hero-wide-2560.avif 2560w"
+      imagesizes="100vw" />
+    <link rel="preload" as="image" type="image/avif" fetchpriority="high"
+      media="(max-width: 760px) and (orientation: portrait)"
+      imagesrcset="%BASE_URL%images/hero-tall-480.avif 480w, %BASE_URL%images/hero-tall-768.avif 768w, %BASE_URL%images/hero-tall-1080.avif 1080w"
+      imagesizes="100vw" />
+
+    <script type="application/ld+json">
+      { "@context": "https://schema.org", "@type": "Organization", "name": "SEVELIAN", "url": "https://sevelian.com/" }
+    </script>
+  </head>
+  <body>
+    <noscript>
+      <p style="padding:2rem;font-family:serif;text-align:center">
+        SEVELIAN — an exclusive collection is on its way. Please enable JavaScript to join the early access list.
+      </p>
+    </noscript>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
